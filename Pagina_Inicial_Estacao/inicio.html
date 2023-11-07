@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Imagem da logo-->
+  <link rel="apple-touch-icon" sizes="76x76" href="./imagens/logo.png">
+  <link rel="icon" type="image/png" href="./imagens/logo.png">
+  <meta charset="UTF-8">
+  <title>Pagina Inicial</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./page_inicial/inicio.css">
+  <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- partial:index.partial.html -->
+  
+  <div class="container">
+    <div class="user-profile-area">
+      <a href="./Perfil_atleta/profile-page.html">
+        <div class="task-manager">Meu Perfil</div>
+      </a>
+      <div class="side-wrapper">
+        <div class="user-profile">
+          <img src="./imagens/imgperfil.jpg" alt="" class="user-photo">
+          <div class="user-name">Joao Gustavo</div>
+          <div class="user-mail">joaocandidoz190@gmail.com</div>
+        </div>
+
+        <!-- Icones de notificaçao
+        <div class="user-notification">
+          <div class="notify">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" fill="currentColor">
+              <path
+                d="M13.533 5.6h-.961a.894.894 0 01-.834-.57.906.906 0 01.197-.985l.675-.675a.466.466 0 000-.66l-1.32-1.32a.466.466 0 00-.66 0l-.676.677a.9.9 0 01-.994.191.906.906 0 01-.56-.837V.467A.467.467 0 007.933 0H6.067A.467.467 0 005.6.467v.961c0 .35-.199.68-.57.834a.902.902 0 01-.983-.195L3.37 1.39a.466.466 0 00-.66 0L1.39 2.71a.466.466 0 000 .66l.675.675c.25.25.343.63.193.995a.902.902 0 01-.834.56H.467A.467.467 0 000 6.067v1.866c0 .258.21.467.467.467h.961c.35 0 .683.202.834.57a.904.904 0 01-.197.984l-.675.676a.466.466 0 000 .66l1.32 1.32a.466.466 0 00.66 0l.68-.68a.894.894 0 01.994-.187.897.897 0 01.556.829v.961c0 .258.21.467.467.467h1.866c.258 0 .467-.21.467-.467v-.961c0-.35.202-.683.57-.834a.904.904 0 01.984.197l.676.675a.466.466 0 00.66 0l1.32-1.32a.466.466 0 000-.66l-.68-.68a.894.894 0 01-.187-.994.897.897 0 01.829-.556h.961c.258 0 .467-.21.467-.467V6.067a.467.467 0 00-.467-.467zM7 9.333C5.713 9.333 4.667 8.287 4.667 7S5.713 4.667 7 4.667 9.333 5.713 9.333 7 8.287 9.333 7 9.333z" />
+            </svg>
+          </div>
+          <div class="notify alert">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+              <path
+                d="M10.688 95.156C80.958 154.667 204.26 259.365 240.5 292.01c4.865 4.406 10.083 6.646 15.5 6.646 5.406 0 10.615-2.219 15.469-6.604 36.271-32.677 159.573-137.385 229.844-196.896 4.375-3.698 5.042-10.198 1.5-14.719C494.625 69.99 482.417 64 469.333 64H42.667c-13.083 0-25.292 5.99-33.479 16.438-3.542 4.52-2.875 11.02 1.5 14.718z" />
+              <path
+                d="M505.813 127.406a10.618 10.618 0 00-11.375 1.542C416.51 195.01 317.052 279.688 285.76 307.885c-17.563 15.854-41.938 15.854-59.542-.021-33.354-30.052-145.042-125-208.656-178.917a10.674 10.674 0 00-11.375-1.542A10.674 10.674 0 000 137.083v268.25C0 428.865 19.135 448 42.667 448h426.667C492.865 448 512 428.865 512 405.333v-268.25a10.66 10.66 0 00-6.187-9.677z" />
+            </svg>
+          </div>
+          <div class="notify alert">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+              <path
+                d="M467.812 431.851l-36.629-61.056a181.363 181.363 0 01-25.856-93.312V224c0-67.52-45.056-124.629-106.667-143.04V42.667C298.66 19.136 279.524 0 255.993 0s-42.667 19.136-42.667 42.667V80.96C151.716 99.371 106.66 156.48 106.66 224v53.483c0 32.853-8.939 65.109-25.835 93.291L44.196 431.83a10.653 10.653 0 00-.128 10.752c1.899 3.349 5.419 5.419 9.259 5.419H458.66c3.84 0 7.381-2.069 9.28-5.397 1.899-3.329 1.835-7.468-.128-10.753zM188.815 469.333C200.847 494.464 226.319 512 255.993 512s55.147-17.536 67.179-42.667H188.815z" />
+            </svg>
+          </div>
+        </div>
+
+        -->
+
+        <div class="progress-status">0</div>
+        <div class="progress">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="task-status">
+          <div class="task-stat">
+            <div class="task-number">0</div>
+            <div class="task-condition">Publicações</div>
+          </div>
+          <div class="task-stat">
+            <div class="task-number">0</div>
+            <div class="task-condition">Propostas</div>
+          </div>
+          <div class="task-stat">
+            <div class="task-number">0</div>
+            <div class="task-condition">Seguidores</div>
+          </div>
+        </div>
+      </div>
+      <div class="side-wrapper">
+        <div class="project-title">Minhas Conquistas</div>
+        <div class="project-name">
+          <div class="project-department">Copa Itatiaia</div>
+          <div class="project-department">DFA</div>
+          <div class="project-department">Copa Varzea</div>
+        </div>
+      </div>
+
+      <!--Aqui onde começa chat dos icones de Mensagens-->
+
+      <div class="side-wrapper">
+        <div class="project-title">Conversas</div>
+        <div class="team-member">
+          <a href="./flat-responsive-form-using-css3-html5/dist/index.html"> <img
+              src="https://images.unsplash.com/flagged/photo-1574282893982-ff1675ba4900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+              alt="" class="members"> </a>
+
+          <a href="./flat-responsive-form-using-css3-html5/dist/index.html"> <img
+              src="https://assets.codepen.io/3364143/Screen+Shot+2020-08-01+at+12.24.16.png" alt="" class="members"> </a>
+
+            <a href="./flat-responsive-form-using-css3-html5/dist/index.html"> <img
+                src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                alt="" class="members"> </a>
+
+              <a href="./flat-responsive-form-using-css3-html5/dist/index.html"> <img
+                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=998&q=80"
+                  alt="" class="members"> </a>
+
+
+                <a href="./flat-responsive-form-using-css3-html5/dist/index.html"> <img
+                    src="https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    alt="" class="members"> </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Aqui começa a formatação do header e dos feeds-->
+
+    <div class="main-area">
+      <div class="header">
+        <div class="search-bar">
+
+          <a href="./Times.html"><button class="button">Procurar Clubes!</button></a>
+
+        </div>
+
+        <!--Formataçao do check-box do calendario-->
+
+
+        <div class="inbox-calendar">
+          <input type="checkbox" class="inbox-calendar-checkbox">
+          <div class="toggle-page">
+            <span>Feed</span>
+          </div>
+          <div class="layer"></div>
+        </div>
+
+
+        <a href="./Calendario/index.html"><button class="open-button"><i class="fa-solid fa-calendar-days"
+              style="color: #ffffff;"></i></button></a>
+
+      </div>
+
+
+      <!--  
+      <div class="main-container">
+        <div class="inbox-container">
+          <div class="inbox">
+            <div class="msg msg-department anim-y">
+              Posts
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 492 492">
+                <path
+                  d="M484.13 124.99l-16.11-16.23a26.72 26.72 0 00-19.04-7.86c-7.2 0-13.96 2.79-19.03 7.86L246.1 292.6 62.06 108.55c-5.07-5.06-11.82-7.85-19.03-7.85s-13.97 2.79-19.04 7.85L7.87 124.68a26.94 26.94 0 000 38.06l219.14 219.93c5.06 5.06 11.81 8.63 19.08 8.63h.09c7.2 0 13.96-3.57 19.02-8.63l218.93-219.33A27.18 27.18 0 00492 144.1c0-7.2-2.8-14.06-7.87-19.12z">
+                </path>
+              </svg>
+            </div>
+
+            Formataçao dos POSTS-->
+      <!--
+            <div class="msg selected-bg anim-y">
+              <input type="checkbox" name="msg" id="mail1" class="mail-choice" checked>
+              <label for="mail1"></label>
+              <div class="msg-content">
+                <div class="msg-title">Write an articke about design</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img src="https://assets.codepen.io/3364143/Screen+Shot+2020-08-01+at+12.24.16.png" alt=""
+                class="members mail-members">
+            </div>
+            <div class="msg anim-y">
+              <input type="checkbox" name="msg" id="mail2" class="mail-choice">
+              <label for="mail2"></label>
+              <div class="msg-content">
+                <div class="msg-title">Disrupt next level aesthetic raw</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img
+                src="https://images.unsplash.com/flagged/photo-1574282893982-ff1675ba4900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+                alt="" class="members mail-members">
+            </div>
+            <div class="msg selected-bg anim-y">
+              <input type="checkbox" name="msg" id="mail3" class="mail-choice" checked>
+              <label for="mail3"></label>
+              <div class="msg-content">
+                <div class="msg-title">Chicharrones craft beer tattooed</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=998&q=80"
+                alt="" class="members mail-members">
+            </div>
+            <div class="msg anim-y">
+              <input type="checkbox" name="msg" id="mail4" class="mail-choice">
+              <label for="mail4"></label>
+              <div class="msg-content">
+                <div class="msg-title">Vaporware readymade shabby</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img
+                src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                alt="" class="members mail-members">
+            </div>
+            <div class="msg anim-y">
+              <input type="checkbox" name="msg" id="mail5" class="mail-choice">
+              <label for="mail5"></label>
+              <div class="msg-content">
+                <div class="msg-title"> Four dollar toast taxidermy</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                alt="" class="members mail-members">
+            </div>
+            <div class="msg anim-y">
+              <input type="checkbox" name="msg" id="mail6" class="mail-choice">
+              <label for="mail6"></label>
+              <div class="msg-content">
+                <div class="msg-title">Slow-carb disrupt kogi tote bag</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                alt="" class="members mail-members">
+            </div>
+            <div class="msg anim-y">
+              <input type="checkbox" name="msg" id="mail7" class="mail-choice">
+              <label for="mail7"></label>
+              <div class="msg-content">
+                <div class="msg-title">Pour-over subway tile twee</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img src="https://assets.codepen.io/3364143/Screen+Shot+2020-08-01+at+12.24.16.png" alt=""
+                class="members mail-members">
+            </div>
+            <div class="msg anim-y">
+              <input type="checkbox" name="msg" id="mail8" class="mail-choice">
+              <label for="mail8"></label>
+              <div class="msg-content">
+                <div class="msg-title">Create AdWords campaign</div>
+                <div class="msg-date">22 Feb, 2019</div>
+              </div>
+              <img
+                src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                alt="" class="members mail-members">
+            </div>
+          </div>
+          <div class="add-task">
+            <button class="add-button">Add task</button>
+          </div>
+        </div>
+-->
+
+
+      <div class="mail-detail">
+
+        <div class="mail-contents">
+          <div class="mail-contents-subject">
+
+            <div class="mail-contents-title">Feed</div>
+          </div>
+          <div class="mail">
+            <div class="mail-time">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-clock">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+              19 Novembro, 2023
+            </div>
+            <div class="mail-inside">É com entusiasmo que compartilho um pouco sobre mim por meio desta
+              apresentação
+              para inclusão no meu currículo. Sou Joao Gustavo, e gostaria de destacar as características e
+              habilidades que me tornam um candidato ideal para oportunidades dentro da sua empresa.</div>
+
+
+
+            <!--Formataçao do primeiro post -->
+
+            <div class="mail-assign">
+
+              <div class="card">
+                <div class="avatar"><img class="avatar" src="./imagens/WhatsApp Image 2023-10-31 at 21.08.47.jpeg"
+                    alt=""></div>
+                <div class="body">
+                  <p class="text">Estação do Atleta se destaca por sua inovação,
+                    qualidade e compromisso com o esporte e o estilo de vida ativo. Ao longo dos anos,tem demonstrado um
+                    forte compromisso com a sustentabilidade e a responsabilidade social, o que é muito louvável.</p>
+                  <span class="username">from: @Yaya12085</span>
+                  <div class="footer">
+                    <div>
+                      <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"
+                              d="M16 10H16.01M12 10H12.01M8 10H8.01M3 10C3 4.64706 5.11765 3 12 3C18.8824 3 21 4.64706 21 10C21 15.3529 18.8824 17 12 17C11.6592 17 11.3301 16.996 11.0124 16.9876L7 21V16.4939C4.0328 15.6692 3 13.7383 3 10Z">
+                            </path>
+                          </g>
+                        </svg>18</div>
+                      <div><svg fill="#000000" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-2.5 0 32 32">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <g id="icomoon-ignore"> </g>
+                            <path fill="#000000"
+                              d="M0 10.284l0.505 0.36c0.089 0.064 0.92 0.621 2.604 0.621 0.27 0 0.55-0.015 0.836-0.044 3.752 4.346 6.411 7.472 7.060 8.299-1.227 2.735-1.42 5.808-0.537 8.686l0.256 0.834 7.63-7.631 8.309 8.309 0.742-0.742-8.309-8.309 7.631-7.631-0.834-0.255c-2.829-0.868-5.986-0.672-8.686 0.537-0.825-0.648-3.942-3.3-8.28-7.044 0.11-0.669 0.23-2.183-0.575-3.441l-0.352-0.549-8.001 8.001zM1.729 10.039l6.032-6.033c0.385 1.122 0.090 2.319 0.086 2.334l-0.080 0.314 0.245 0.214c7.409 6.398 8.631 7.39 8.992 7.546l-0.002 0.006 0.195 0.058 0.185-0.087c2.257-1.079 4.903-1.378 7.343-0.836l-13.482 13.481c-0.55-2.47-0.262-5.045 0.837-7.342l0.104-0.218-0.098-0.221-0.031 0.013c-0.322-0.632-1.831-2.38-7.498-8.944l-0.185-0.215-0.282 0.038c-0.338 0.045-0.668 0.069-0.981 0.069-0.595 0-1.053-0.083-1.38-0.176z">
+                            </path>
+                          </g>
+                        </svg>7</div>
+                      <div><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path opacity="0.1"
+                              d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z"
+                              fill="#323232"></path>
+                            <path opacity="0.1"
+                              d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z"
+                              fill="#323232"></path>
+                            <path opacity="0.1"
+                              d="M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12Z"
+                              fill="#323232"></path>
+                            <path
+                              d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z"
+                              stroke-width="2"></path>
+                            <path
+                              d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z"
+                              stroke-width="2"></path>
+                            <path
+                              d="M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12Z"
+                              stroke-width="2"></path>
+                            <path d="M8.7207 10.6397L15.0001 7.5" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                            <path d="M8.70605 13.353L15 16.5" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                          </g>
+                        </svg>2</div>
+                    </div>
+
+                    <div class="viewer">
+                      <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path stroke-width="2" stroke="#ffffff"
+                              d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                            </path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                              d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                          </g>
+                        </svg></span>
+                      <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path stroke-width="2" stroke="#ffffff"
+                              d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                            </path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                              d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                          </g>
+                        </svg></span>
+                      <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path stroke-width="2" stroke="#ffffff"
+                              d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                            </path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                              d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                          </g>
+                        </svg></span>
+                      <span>+20</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <!--Formataçao segundo post COM VIDEO-->
+
+
+            <div class="mail-assign">
+
+              <div class="post-card">
+                <div class="avatar"><img class="avatar" src="./imagens/WhatsApp Image 2023-10-31 at 21.08.47 (2).jpeg"
+                    alt=""></div>
+                <a href="#" class="title">Gostaria de compartilhar está final de Copa DFA muito impolgante com voces</a>
+                <span class="datetime">Postado ha 3 min</span>
+
+                <div class="image-preview"> <video id="my_video_1" class="image-preview" width="640px" height="267px"
+                    controls preload="none" poster=''
+                    data-setup='{ "aspectRatio":"940:620", "playbackRates": [1, 1.5, 2] }'>
+                    <source src="./imagens/videoNey.mp4" type='video/mp4' />
+
+                    <div class="comment-like">
+                      <span><svg fill="" xml:space="preserve" viewBox="0 0 32 32"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                          id="Uploaded to svgrepo.com" version="1.1">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path
+                              d="M21.081,6C23.752,6.031,26,8.766,26,12c0,5.106-6.47,10.969-10.001,13.593 C12.466,22.974,6,17.12,6,12c0-3.234,2.248-5.969,4.918-6C13.586,6.175,13.926,6.801,16,8.879C18.069,6.806,18.418,6.173,21.081,6 M20.911,4.006L20.912,4C18.993,4,17.259,4.785,16,6.048C14.741,4.785,13.007,4,11.088,4l0.001,0.006C7.044,3.936,4,7.719,4,12 c0,8,11.938,16,11.938,16h0.124C16.062,28,28,20,28,12C28,7.713,24.951,3.936,20.911,4.006z"
+                              class="bentblocks_een"></path>
+                          </g>
+                        </svg>10</span>
+                      <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path fill=""
+                              d="M4.49999 20.25C4.37892 20.2521 4.25915 20.2248 4.1509 20.1705C4.04266 20.1163 3.94916 20.0366 3.87841 19.9383C3.80766 19.8401 3.76175 19.7261 3.74461 19.6063C3.72747 19.4864 3.73961 19.3641 3.77999 19.25L5.37999 14C5.03175 13.0973 4.85539 12.1375 4.85999 11.17C4.8584 10.1057 5.06918 9.0518 5.47999 8.06999C5.88297 7.13047 6.45975 6.27549 7.17999 5.54999C7.90382 4.82306 8.76344 4.24545 9.70999 3.84999C10.6889 3.4344 11.7415 3.22021 12.805 3.22021C13.8685 3.22021 14.9211 3.4344 15.9 3.84999C17.3341 4.46429 18.5573 5.48452 19.4191 6.7851C20.2808 8.08568 20.7434 9.60985 20.75 11.17C20.7437 13.2771 19.9065 15.2966 18.42 16.79C17.6945 17.5102 16.8395 18.087 15.9 18.49C14.0091 19.2819 11.8865 19.3177 9.96999 18.59L4.71999 20.19C4.64977 20.22 4.57574 20.2402 4.49999 20.25ZM12.8 4.74999C11.5334 4.75547 10.2962 5.13143 9.24068 5.83153C8.18519 6.53164 7.35763 7.52528 6.85999 8.68999C6.19883 10.2911 6.19883 12.0889 6.85999 13.69C6.91957 13.8548 6.91957 14.0352 6.85999 14.2L5.62999 18.37L9.77999 17.11C9.94477 17.0504 10.1252 17.0504 10.29 17.11C11.0824 17.439 11.932 17.6083 12.79 17.6083C13.648 17.6083 14.4976 17.439 15.29 17.11C16.0708 16.7813 16.779 16.3018 17.3742 15.6989C17.9693 15.096 18.4397 14.3816 18.7583 13.5967C19.077 12.8118 19.2376 11.9717 19.231 11.1245C19.2244 10.2774 19.0508 9.4399 18.72 8.65999C18.2234 7.50094 17.398 6.51285 16.3459 5.81792C15.2937 5.123 14.0609 4.75171 12.8 4.74999Z">
+                            </path>
+                          </g>
+                        </svg>4</span>
+                    </div>
+
+
+                </div>
+
+              </div>
+
+
+
+              <!--Formataçao trerceiro post-->
+              <div class="mail-assign">
+
+                <div class="card">
+                  <div class="avatar"><img class="avatar" src="./imagens/WhatsApp Image 2023-10-31 at 21.08.47 (1).jpeg"
+                      alt=""></div>
+                  <div class="body">
+                    <p class="text">Ampliação de esforços de inclusão: Embora Estação do Atleta tenha feito progressos
+                      notáveis na promoção da diversidade e inclusão, ainda há desafios a serem enfrentados.
+                      Continuar a trabalhar na representatividade em todos os níveis da empresa é crucial.</p><span
+                      class="username">from: @Yaya12085</span>
+                    <div class="footer">
+                      <div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"
+                                d="M16 10H16.01M12 10H12.01M8 10H8.01M3 10C3 4.64706 5.11765 3 12 3C18.8824 3 21 4.64706 21 10C21 15.3529 18.8824 17 12 17C11.6592 17 11.3301 16.996 11.0124 16.9876L7 21V16.4939C4.0328 15.6692 3 13.7383 3 10Z">
+                              </path>
+                            </g>
+                          </svg>18</div>
+                        <div><svg fill="#000000" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-2.5 0 32 32">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="icomoon-ignore"> </g>
+                              <path fill="#000000"
+                                d="M0 10.284l0.505 0.36c0.089 0.064 0.92 0.621 2.604 0.621 0.27 0 0.55-0.015 0.836-0.044 3.752 4.346 6.411 7.472 7.060 8.299-1.227 2.735-1.42 5.808-0.537 8.686l0.256 0.834 7.63-7.631 8.309 8.309 0.742-0.742-8.309-8.309 7.631-7.631-0.834-0.255c-2.829-0.868-5.986-0.672-8.686 0.537-0.825-0.648-3.942-3.3-8.28-7.044 0.11-0.669 0.23-2.183-0.575-3.441l-0.352-0.549-8.001 8.001zM1.729 10.039l6.032-6.033c0.385 1.122 0.090 2.319 0.086 2.334l-0.080 0.314 0.245 0.214c7.409 6.398 8.631 7.39 8.992 7.546l-0.002 0.006 0.195 0.058 0.185-0.087c2.257-1.079 4.903-1.378 7.343-0.836l-13.482 13.481c-0.55-2.47-0.262-5.045 0.837-7.342l0.104-0.218-0.098-0.221-0.031 0.013c-0.322-0.632-1.831-2.38-7.498-8.944l-0.185-0.215-0.282 0.038c-0.338 0.045-0.668 0.069-0.981 0.069-0.595 0-1.053-0.083-1.38-0.176z">
+                              </path>
+                            </g>
+                          </svg>7</div>
+                        <div><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path opacity="0.1"
+                                d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z"
+                                fill="#323232"></path>
+                              <path opacity="0.1"
+                                d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z"
+                                fill="#323232"></path>
+                              <path opacity="0.1"
+                                d="M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12Z"
+                                fill="#323232"></path>
+                              <path
+                                d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z"
+                                stroke-width="2"></path>
+                              <path
+                                d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z"
+                                stroke-width="2"></path>
+                              <path
+                                d="M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12Z"
+                                stroke-width="2"></path>
+                              <path d="M8.7207 10.6397L15.0001 7.5" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                              <path d="M8.70605 13.353L15 16.5" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            </g>
+                          </svg>2</div>
+                      </div>
+                      <div class="viewer">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-width="2" stroke="#ffffff"
+                                d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                              </path>
+                              <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                                d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                            </g>
+                          </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-width="2" stroke="#ffffff"
+                                d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                              </path>
+                              <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                                d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                            </g>
+                          </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-width="2" stroke="#ffffff"
+                                d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                              </path>
+                              <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                                d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                            </g>
+                          </svg></span>
+                        <span>+20</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!--Formatação QUARTO Com video-->
+
+              <div class="post-card">
+                <div class="avatar"><img class="avatar" src="./imagens/WhatsApp Image 2023-10-31 at 21.08.47 (2).jpeg"
+                    alt=""></div>
+                <a href="#" class="title">Gostaria de compartilhar está final de Copa DFA muito impolgante com
+                  voces</a>
+                <span class="datetime">Postado ha 3 min</span>
+                <div class="image-preview">
+                  <div class="image-preview"> <video id="my_video_1" class="image-preview" width="640px" height="267px"
+                      controls preload="none" poster=''
+                      data-setup='{ "aspectRatio":"940:620", "playbackRates": [1, 1.5, 2] }'>
+                      <source src="./imagens/ney2.mp4" type='video/mp4' />
+                  </div>
+                  <div class="comment-like">
+                    <span><svg fill="" xml:space="preserve" viewBox="0 0 32 32"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                        id="Uploaded to svgrepo.com" version="1.1">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            d="M21.081,6C23.752,6.031,26,8.766,26,12c0,5.106-6.47,10.969-10.001,13.593 C12.466,22.974,6,17.12,6,12c0-3.234,2.248-5.969,4.918-6C13.586,6.175,13.926,6.801,16,8.879C18.069,6.806,18.418,6.173,21.081,6 M20.911,4.006L20.912,4C18.993,4,17.259,4.785,16,6.048C14.741,4.785,13.007,4,11.088,4l0.001,0.006C7.044,3.936,4,7.719,4,12 c0,8,11.938,16,11.938,16h0.124C16.062,28,28,20,28,12C28,7.713,24.951,3.936,20.911,4.006z"
+                            class="bentblocks_een"></path>
+                        </g>
+                      </svg>10</span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path fill=""
+                            d="M4.49999 20.25C4.37892 20.2521 4.25915 20.2248 4.1509 20.1705C4.04266 20.1163 3.94916 20.0366 3.87841 19.9383C3.80766 19.8401 3.76175 19.7261 3.74461 19.6063C3.72747 19.4864 3.73961 19.3641 3.77999 19.25L5.37999 14C5.03175 13.0973 4.85539 12.1375 4.85999 11.17C4.8584 10.1057 5.06918 9.0518 5.47999 8.06999C5.88297 7.13047 6.45975 6.27549 7.17999 5.54999C7.90382 4.82306 8.76344 4.24545 9.70999 3.84999C10.6889 3.4344 11.7415 3.22021 12.805 3.22021C13.8685 3.22021 14.9211 3.4344 15.9 3.84999C17.3341 4.46429 18.5573 5.48452 19.4191 6.7851C20.2808 8.08568 20.7434 9.60985 20.75 11.17C20.7437 13.2771 19.9065 15.2966 18.42 16.79C17.6945 17.5102 16.8395 18.087 15.9 18.49C14.0091 19.2819 11.8865 19.3177 9.96999 18.59L4.71999 20.19C4.64977 20.22 4.57574 20.2402 4.49999 20.25ZM12.8 4.74999C11.5334 4.75547 10.2962 5.13143 9.24068 5.83153C8.18519 6.53164 7.35763 7.52528 6.85999 8.68999C6.19883 10.2911 6.19883 12.0889 6.85999 13.69C6.91957 13.8548 6.91957 14.0352 6.85999 14.2L5.62999 18.37L9.77999 17.11C9.94477 17.0504 10.1252 17.0504 10.29 17.11C11.0824 17.439 11.932 17.6083 12.79 17.6083C13.648 17.6083 14.4976 17.439 15.29 17.11C16.0708 16.7813 16.779 16.3018 17.3742 15.6989C17.9693 15.096 18.4397 14.3816 18.7583 13.5967C19.077 12.8118 19.2376 11.9717 19.231 11.1245C19.2244 10.2774 19.0508 9.4399 18.72 8.65999C18.2234 7.50094 17.398 6.51285 16.3459 5.81792C15.2937 5.123 14.0609 4.75171 12.8 4.74999Z">
+                          </path>
+                        </g>
+                      </svg>4</span>
+                  </div>
+
+
+                </div>
+
+              </div>
+
+
+              <!--fORMATAÇAO ULTIMO POST-->
+
+              <div class="mail-assign">
+
+                <div class="card">
+                  <div class="avatar"><img class="avatar" src="./imagens/WhatsApp Image 2023-10-31 at 21.08.47.jpeg"
+                      alt=""></div>
+                  <div class="body">
+                    <p class="text">Estação do Atleta se destaca por sua inovação,
+                      qualidade e compromisso com o esporte e o estilo de vida ativo. Ao longo dos anos,tem demonstrado
+                      um
+                      forte compromisso com a sustentabilidade e a responsabilidade social, o que é muito louvável.</p>
+                    <span class="username">from: @Yaya12085</span>
+                    <div class="footer">
+                      <div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"
+                                d="M16 10H16.01M12 10H12.01M8 10H8.01M3 10C3 4.64706 5.11765 3 12 3C18.8824 3 21 4.64706 21 10C21 15.3529 18.8824 17 12 17C11.6592 17 11.3301 16.996 11.0124 16.9876L7 21V16.4939C4.0328 15.6692 3 13.7383 3 10Z">
+                              </path>
+                            </g>
+                          </svg>18</div>
+                        <div><svg fill="#000000" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-2.5 0 32 32">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <g id="icomoon-ignore"> </g>
+                              <path fill="#000000"
+                                d="M0 10.284l0.505 0.36c0.089 0.064 0.92 0.621 2.604 0.621 0.27 0 0.55-0.015 0.836-0.044 3.752 4.346 6.411 7.472 7.060 8.299-1.227 2.735-1.42 5.808-0.537 8.686l0.256 0.834 7.63-7.631 8.309 8.309 0.742-0.742-8.309-8.309 7.631-7.631-0.834-0.255c-2.829-0.868-5.986-0.672-8.686 0.537-0.825-0.648-3.942-3.3-8.28-7.044 0.11-0.669 0.23-2.183-0.575-3.441l-0.352-0.549-8.001 8.001zM1.729 10.039l6.032-6.033c0.385 1.122 0.090 2.319 0.086 2.334l-0.080 0.314 0.245 0.214c7.409 6.398 8.631 7.39 8.992 7.546l-0.002 0.006 0.195 0.058 0.185-0.087c2.257-1.079 4.903-1.378 7.343-0.836l-13.482 13.481c-0.55-2.47-0.262-5.045 0.837-7.342l0.104-0.218-0.098-0.221-0.031 0.013c-0.322-0.632-1.831-2.38-7.498-8.944l-0.185-0.215-0.282 0.038c-0.338 0.045-0.668 0.069-0.981 0.069-0.595 0-1.053-0.083-1.38-0.176z">
+                              </path>
+                            </g>
+                          </svg>7</div>
+                        <div><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path opacity="0.1"
+                                d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z"
+                                fill="#323232"></path>
+                              <path opacity="0.1"
+                                d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z"
+                                fill="#323232"></path>
+                              <path opacity="0.1"
+                                d="M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12Z"
+                                fill="#323232"></path>
+                              <path
+                                d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z"
+                                stroke-width="2"></path>
+                              <path
+                                d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z"
+                                stroke-width="2"></path>
+                              <path
+                                d="M9 12C9 13.6569 7.65685 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12Z"
+                                stroke-width="2"></path>
+                              <path d="M8.7207 10.6397L15.0001 7.5" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                              <path d="M8.70605 13.353L15 16.5" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            </g>
+                          </svg>2</div>
+                      </div>
+
+                      <div class="viewer">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-width="2" stroke="#ffffff"
+                                d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                              </path>
+                              <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                                d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                            </g>
+                          </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-width="2" stroke="#ffffff"
+                                d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                              </path>
+                              <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                                d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                            </g>
+                          </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                            <g id="SVGRepo_iconCarrier">
+                              <path stroke-width="2" stroke="#ffffff"
+                                d="M17 8C17 10.7614 14.7614 13 12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8Z">
+                              </path>
+                              <path stroke-linecap="round" stroke-width="2" stroke="#ffffff"
+                                d="M3 21C3.95728 17.9237 6.41998 17 12 17C17.58 17 20.0427 17.9237 21 21"></path>
+                            </g>
+                          </svg></span>
+                        <span>+20</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <!--Formataçao do input menssgem 
+
+              <div class="mail-textarea">
+                <input type="text" placeholder="Digite sua Mensagem...">
+                <div class="textarea-icons">
+                  <div class="attach">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-paperclip">
+                      <path
+                        d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48" />
+                    </svg>
+                  </div>
+                  <div class="send">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-send">
+                      <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+-->
+              <!--Aqui onde começa formatação do calendario
+   
+   <div class="calendar-container">
+    <div class="calender-tab anim-y">
+     <div class="week-month">
+      <button class=" button active">Week</button>
+      <button class=" button button-month">Month</button>
+     </div>
+     <div class="month-change">
+      <div class="current-month">October</div>
+      <div class="current-year">2020</div>
+     </div>
+     <div class="week-month">
+      <button class=" button button-weekends">Weekends</button>
+      <button class=" button button-task active">Add task</button>
+     </div>
+    </div>
+    <div class="calendar-wrapper anim-y">
+     <div class="calendar">
+      <div class="days">Monday</div>
+      <div class="days">Tuesday</div>
+      <div class="days">Wednesday</div>
+      <div class="days">Thursday</div>
+      <div class="days">Friday</div>
+      <div class="days">Saturday</div>
+      <div class="days">Sunday</div>
+      <div class="day not-work">31</div>
+      <div class="day project-market">1
+       <div class="hover-title">Marketing</div>
+       <div class="project-detail">Sales report from last month</div>
+       <div class="project-detail">Prepare offers for clients</div>
+       <div class="popup-check">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+        </svg>
+       </div>
+      </div>
+      <div class="day">2</div>
+      <div class="day project-design">3
+       <div class="project-detail design">Create 3 illustrations for blog post about design trends</div>
+      </div>
+      <div class="day">4</div>
+      <div class="day">5</div>
+      <div class="day">6</div>
+      <div class="day project-develop">7
+       <div class="project-detail develop">Take part in course about future design trends and new technologies</div>
+      </div>
+      <div class="day">8</div>
+      <div class="day">9</div>
+      <div class="day">10</div>
+      <div class="day">11</div>
+      <div class="day">12</div>
+      <div class="day">13</div>
+      <div class="day">14</div>
+      <div class="day project-market">15
+       <div class="hover-title">Marketing</div>
+       <div class="project-detail">Write an article about design trends</div>
+       <div class="popup-check">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+        </svg>
+       </div>
+      </div>
+      <div class="day">16</div>
+      <div class="day project-market">17
+       <div class="hover-title">Marketing</div>
+       <div class="project-detail">Create AdWords campaign</div>
+       <div class="project-detail">Send newsletter to clients</div>
+       <div class="popup-check">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+        </svg>
+       </div>
+      </div>
+      <div class="day">18</div>
+      <div class="day">19</div>
+      <div class="day">20</div>
+      <div class="day">21</div>
+      <div class="day">22</div>
+       <div class="day project-finance">23
+        <div class="hover-title">Management</div>
+       <div class="project-detail finance">Redesign project ui interface for clients and get feedback</div>
+       <div class="popup-check">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+        </svg>
+       </div>
+      </div>
+      <div class="day">24</div>
+      <div class="day">25</div>
+      <div class="day">26</div>
+      <div class="day">27</div>
+      <div class="day">28</div>
+      <div class="day">29</div>
+      <div class="day">30</div>
+      <div class="day not-work">1</div>
+      <div class="day not-work">2</div>
+      <div class="day not-work">3</div>
+      <div class="day not-work">4</div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+-->
+              <!-- final -->
+              <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+              <script src="./Page_inicial/inicio.js"></script>
+              <script src="./Page_inicial/sugestoes.js"></script>
+              <script src="./Page_inicial/scriptDEsugetoes.js"></script>
+
+</body>
+
+</html>
